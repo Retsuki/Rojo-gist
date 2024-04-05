@@ -61,7 +61,7 @@ async function convertToWebPAndAvif(inputDir, outputDir) {
 }
 
 const INPUT_BASE_DIR = './utils/old/images';
-const OUTPUT_BASE_DIR = './src/images';
+const OUTPUT_BASE_DIR = './public/images';
 
 convertToWebPAndAvif(INPUT_BASE_DIR, OUTPUT_BASE_DIR)
   .then(() => console.log('Conversion completed'))
